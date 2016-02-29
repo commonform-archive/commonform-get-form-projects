@@ -1,7 +1,7 @@
 {
   "name": "commonform-get-form-projects",
   "description": "fetch projects matching a form from projects.commonform.org",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
     "json-parse-errback": "^1.0.1"
