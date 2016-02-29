@@ -14,4 +14,9 @@ var project = {
 
 getProjects(digest, function(error, projects) {
   assert.deepEqual(projects, [ project ]) })
+
+var allAs = 'a'.repeat(64)
+
+getProjects(allAs, function(error, projects) {
+  assert.deepEqual(projects, [ ]) })
 ```
