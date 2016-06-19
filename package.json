@@ -1,7 +1,7 @@
 {
-  "name": "commonform-get-form-projects",
-  "description": "fetch projects matching a form from projects.commonform.org",
-  "version": "1.0.1",
+  "name": "commonform-get-form-publications",
+  "description": "fetch publications matching a form from api.commonform.org",
+  "version": "0.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "dependencies": {
     "json-parse-errback": "^1.0.1"
@@ -14,7 +14,7 @@
     "index.js"
   ],
   "license": "Apache-2.0",
-  "repository": "commonform/commonform-get-form-projects",
+  "repository": "commonform/commonform-get-form-publications",
   "scripts": {
     "test": "defence README.md | replace-require-self | node"
   }
